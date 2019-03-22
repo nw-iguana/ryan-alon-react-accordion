@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Component The component only opens the last section when multiple sections have been clicked. 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  </p>
+</ul>
+`;
+
+exports[`Accordion Component renders an empty li when the sections prop is not supplied 1`] = `<ul />`;
+
+exports[`Accordion Component renders no content paragraph by default 1`] = `
+<ul>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li>
+    <button
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component the component opens a clicked section 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+  <p>
+    Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+  </p>
+</ul>
+`;
